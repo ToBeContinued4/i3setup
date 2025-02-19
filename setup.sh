@@ -2,31 +2,19 @@
 
 sudo pacman -S kitty nitrogen neofetch code nemo ttf-montserrat
 
-cd ~
+yay -S brave-bin bumblebee-status
 
-git clone https://aur.archlinux.org/yay.git
-git clone https://aur.archlinux.org/bumblebee-status.git
+mv configs/i3/* ~/.config/i3
 
-cd ~/yay
-makepkg -si
+mv configs/neofetch/* ~/.config/neofetch
 
-cd ~/bumblebee-status
-makepkg -sicr
+mv configs/kitty/* ~/.config/kitty
 
-rm -rf ~/yay
-rm -rf ~/bumblebee-status
-
-mv ~/i3setup/configs/i3/* ~/.config/i3
-
-mv ~/i3setup/configs/neofetch/* ~/.config/neofetch
-
-mv ~/i3setup/configs/kitty/* ~/.config/kitty
-
-mkdir ~/wallpapers
-mv ~/i3setup/configs/wallpapers/* ~/wallpapers
+mv wallpapers ~
 
 cd ~
 
 clear
 
-echo Now reboot, set the default folder in nitrogen to ~/wallpapers and enjoy!
+echo Set the default directory to ~/wallpapers in nitrogen
+echo Now reboot and enjoy!

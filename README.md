@@ -34,6 +34,7 @@ git clone https://github.com/ToBeContinued4/i3setup.git
 cp i3setup/configs/i3/* ~/.config/i3
 cp i3setup/configs/neofetch/* ~/.config/neofetch
 cp i3setup/configs/kitty/* ~/.config/kitty
+mv i3setup/wallpapers ~
 rm -rf i3setup
 ```
 And then restart the i3 configuration

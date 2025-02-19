@@ -17,6 +17,8 @@ sudo pacman -S neofetch nitrogen kitty rofi ttf-montserrat
 - Optional
 ```
 sudo pacman -S code nemo
+```
+```
 yay -S brave-bin
 ```
 

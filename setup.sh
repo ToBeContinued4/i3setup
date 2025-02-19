@@ -1,33 +1,29 @@
 #!/bin/bash
 
-sudo pacman -S git kitty nitrogen neofetch code nemo ttf-montserrat
+sudo pacman -S kitty nitrogen neofetch code nemo ttf-montserrat
+
+cd ~
 
 git clone https://aur.archlinux.org/yay.git
-cd yay
+git clone https://aur.archlinux.org/bumblebee-status.git
+
+cd ~/yay
 makepkg -si
 
-yay -S brave-bin
-
-cd ..
-
-git clone https://aur.archlinux.org/bumblebee-status.git
-cd bumblebee-status
+cd ~/bumblebee-status
 makepkg -sicr
 
-cd ..
+rm -rf ~/yay
+rm -rf ~/bumblebee-status
 
-cd configs/i3
-mv * ~/.config/i3
+mv ~/i3setup/configs/i3/* ~/.config/i3
 
-cd ../neofetch
-mv * ~/.config/neofetch
+mv ~/i3setup/configs/neofetch/* ~/.config/neofetch
 
-cd ../kitty
-mv * ~/.config/kitty
+mv ~/i3setup/configs/kitty/* ~/.config/kitty
 
-cd ../../wallpapers
 mkdir ~/wallpapers
-mv * ~/wallpapers
+mv ~/i3setup/configs/wallpapers/* ~/wallpapers
 
 cd ~
 

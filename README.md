@@ -37,4 +37,4 @@ cp i3setup/configs/kitty/* ~/.config/kitty
 mv i3setup/wallpapers ~
 rm -rf i3setup
 ```
-And then restart the i3 configuration
+And then reboot.

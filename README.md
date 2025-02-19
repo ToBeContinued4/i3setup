@@ -1,2 +1,1 @@
-# i3setup
-This is my setup for i3
+This is my setup for i3 (for Arch)

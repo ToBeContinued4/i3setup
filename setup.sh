@@ -2,17 +2,13 @@
 
 sudo pacman -S kitty nitrogen neofetch code nemo ttf-montserrat
 
-yay -S brave-bin bumblebee-status
+cp configs/i3/* ~/.config/i3
 
-mv configs/i3/* ~/.config/i3
+cp configs/neofetch/* ~/.config/neofetch
 
-mv configs/neofetch/* ~/.config/neofetch
-
-mv configs/kitty/* ~/.config/kitty
+cp configs/kitty/* ~/.config/kitty
 
 mv wallpapers ~
-
-cd ~
 
 clear
 

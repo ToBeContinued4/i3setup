@@ -9,9 +9,6 @@ This is my setup for i3 (for Arch)
 
 Then you can continue.
 
-## How it looks
-<img src="https://github.com/user-attachments/assets/d7b2d260-0b0e-4837-8db8-dc4184b0126d">
-
 ## Programs needed and optional
 - Needed
 ```

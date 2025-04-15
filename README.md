@@ -2,7 +2,7 @@ This is my setup for i3 (for Arch)
 
 ## After Install
 > [!NOTE]
-> After installing and configuring everything, you need to know that for the neofetch config, you need to run it after you install it.
+> After installing and configuring everything, you need to know that for the neofetch config, you need to run it after you install it at least one time.
 
 > [!TIP]
 > You have a directory with some wallpapers for this setup. There is no problem if you don't wan't to use them c:

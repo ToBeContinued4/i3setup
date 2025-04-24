@@ -1,4 +1,5 @@
-This is my setup for i3 (for Arch)
+This is my setup for i3
+(guide for Arch Linux)
 
 ## After Install
 > [!NOTE]
